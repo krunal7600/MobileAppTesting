@@ -1,0 +1,6 @@
+com\project\tastcases\InvokeTestCase.class
+com\project\tastcases\ratingBarTestCase.class
+com\project\utilities\BaseClass.class
+com\project\pageobjects\ListOfitemPageObjects.class
+com\project\tastcases\SeekBarScrollTestCase.class
+com\project\mobileAppFunctions\MobileAppFunctions.class

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+
+    <test name="MobileAppTest1">
+        <classes>
+            <class name="com.project.tastcases.InvokeTestCase">
+                <methods>
+                    <include name="invokeTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="MobileAppTest2">
+        <classes>
+            <class name="com.project.tastcases.ratingBarTestCase">
+                <methods>
+                    <include name="ratingBarTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="MobileAppTest3">
+        <classes>
+            <class name="com.project.tastcases.SeekBarScrollTestCase">
+                <methods>
+                    <include name="seekBarScrollTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
